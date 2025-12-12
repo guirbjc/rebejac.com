@@ -93,10 +93,14 @@
         <div class="modal-video-body">
           <!-- Vidéo à gauche -->
           <div class="modal-video-left">
-            <video id="modal-video-player" class="modal-video-player" controls>
-              <source id="videoSource" src="" type="video/mp4" />
-              Votre navigateur ne supporte pas la lecture de cette vidéo.
-            </video>
+            <iframe
+              id="modal-video-player"
+              class="modal-video-player"
+              src=""
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+            </iframe>
           </div>
 
           <!-- Description à droite -->

@@ -193,23 +193,23 @@ const imageData = {
 
 const videoData = {
   "La Lune Ecarlate": {
-      src: "../assets/videos/la-lune-ecarlate.mp4",
+      src: "https://youtu.be/embed/PvxVMiMFRV8",
       description: "<strong>La Lune Écarlate</strong>\n\nTitle Sequence d'une série imaginaire\nsur des loups-garous à Toulouse à la fin du XIXe.\n\nCréation originale de Guilhem Rebéjac,\nsur une musique de Raymond Lefèvre."
   },
   "106 3D": {
-      src: "../assets/videos/106-vroum-vroum.mp4",
+      src: "https://youtu.be/embed/GWWM9_aqAGk",
       description: "<strong>106 dans un tunnel</strong>\n\nMon tout premier projet réalisé sur le logiciel Blender.\nUne 106 roule dans un tunnel."
   },
   "La Flamme": {
-      src: "../assets/videos/supercut-laflamme.mov",
+      src: "https://youtu.be/embed/shorts/skbKXSqYDMY?feature=share",
       description: "<strong>Supercut - La Flamme</strong>\n\nSynopsis : Deux amis sont à une soirée, l'un conseille à l'autre une technique vue dans un film pour donner son contact à la fille qui lui plait : écrire son numéro de téléphone sur un briquet puis lui donner, mais le fameux briquet disparait.\n\nCourt-métrage réalisé en 2024."
   },
   "Le 6 joueur": {
-      src: "../assets/videos/supercut-le6joueur.mov",
+      src: "https://youtu.be/embed/shorts/JJnsYekHvN8?feature=share",
       description: "<strong>Supercut - Le 6e joueur</strong>\n\nSynopsis : Un groupe d'amis joue à un jeu de société dans lequel il faut répondre à des questions, mais celles-ci deviennent étrangement de plus en plus personnelles et ciblées à mesure que la partie se déroule.\n\nCourt-métrage réalisé en 2023."
   },
   "Vampire Cartoon": {
-      src: "../assets/videos/vampire-cartoon.mp4",
+      src: "https://youtu.be/embed/wnP-YkYw75Q",
       description: "<strong>Trailer Vampire</strong>\n\nTrailer de mon deuxième single <em>Vampire</em>.\n\nRéalisé sur le logiciel After Effects."
   }
 };
@@ -768,32 +768,21 @@ document.addEventListener('DOMContentLoaded', () => {
   const videoOverlay = document.querySelector(".modal-video-overlay");
 
   function openVideoModal(altText) {
-    console.log({
-      videoSource,
-      videoDescription,
-      videoPlayer,
-      videoModal
-    });
-    // Ferme modale audio si ouverte
+    // Ferme la modale audio si ouverte
     const audioModal = document.getElementById('modal');
     if (audioModal && !audioModal.classList.contains('hidden')) closeModal();
 
     const data = videoData[altText];
-    console.log("Données vidéo :", data);
-    if (!data || !videoSource) return;
+    if (!data) return;
 
-    videoSource.src = data.src;
-    videoDescription.textContent = data.description; // → gardera les sauts de ligne (\n)
+    // Affecte l'URL YouTube EMBED
+    videoPlayer.src = data.src;
+
+    // Description
     videoDescription.innerHTML = data.description.replace(/\n/g, "<br>");
-
-    videoPlayer.load();
-    videoPlayer.play().catch(err => {
-      console.warn("Autoplay refusé :", err);
-    });
 
     videoModal.classList.remove("hidden");
 
-    // Animation avec classe visible
     requestAnimationFrame(() => {
       videoModal.classList.add("visible");
     });
@@ -803,9 +792,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function closeVideoModal() {
     videoModal.classList.remove("visible");
-    videoPlayer.pause();
-    videoPlayer.currentTime = 0;
-    videoSource.src = "";
+    videoPlayer.src = "";
 
     // Laisse le temps à l'animation de se terminer avant de masquer
     setTimeout(() => {
