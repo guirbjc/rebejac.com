@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guilhem - Audiovisuel</title>
+  <link rel="icon" href="../assets/images/RBJC_logo_noir_plein.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+  <body>
+    <div id="loader">
+      <img src="../assets/images/RBJC_logo_noir_plein.png" alt="Logo" class="loader-logo">
+    </div>
+
+    <header class="site-header">
+      <div class="header-content">
+        <div class="logo">
+          <a href="../login.html" class="logo">
+              <!-- Logo desktop -->
+              <img id="site-logo-desktop" src="../assets/images/RBJC_logo_blanc.png" alt="Logo Desktop" class="logo-desktop" />
+              <!-- Logo mobile -->
+              <img id="site-logo-mobile" src="../assets/images/RBJC_logo_blanc_plein.png" alt="Logo Mobile" class="logo-mobile" />
+          </a>
+        </div>
+
+        <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav id="menu" class="menu">
+          <ul>
+            <li><a href="guilhem.html">Guilhem</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="musique.html">Musique</a></li>
+            <li><a href="design.html">Design</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero" style="background-image: url('../assets/images/LaLuneEcarlate4.png');">
+      <div class="hero-content">
+        <h1 class="hero-title">Audiovisuel</h1>
+        <p class="hero-subtitle">& Cinéma</p>
+      </div>
+      <!-- Flèche de scroll -->
+      <div class="scroll-arrow-container">
+        <div class="scroll-arrow"></div>
+      </div>
+    </section>
+
+    <div id="menu-placeholder" style="display:none;"></div>
+
+    <main class="page-section">
+      <div class="container">
+        <!-- Grille des éléments -->
+        <div class="card-grid">
+          <a href="#" class="card">
+            <img src="../assets/images/LaLuneEcarlate4.png" alt="La Lune Ecarlate">
+            <div class="card-title">La Lune Écarlate</div>
+          </a>
+          <a href="#" class="card">
+            <img src="../assets/images/106_3D.png" alt="106 3D">
+            <div class="card-title">106 3D</div>
+          </a>
+          <a href="#" class="card">
+            <img src="../assets/images/la-flamme-2.png" alt="La Flamme">
+            <div class="card-title">La Flamme</div>
+          </a>
+          <a href="#" class="card">
+            <img src="../assets/images/le-6-joueur-2.png" alt="Le 6 joueur">
+            <div class="card-title">Le 6e joueur</div>
+          </a>
+          <a href="#" class="card">
+            <img src="../assets/images/vampire-cartoon.png" alt="Vampire Cartoon">
+            <div class="card-title">Trailer Vampire</div>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Fenêtre modale vidéo -->
+    <div id="modal-video" class="modal-video hidden">
+      <div class="modal-video-overlay"></div>
+
+      <div class="modal-video-content">
+        <button class="modal-video-close" aria-label="Fermer la vidéo">&times;</button>
+
+        <div class="modal-video-body">
+          <!-- Vidéo à gauche -->
+          <div class="modal-video-left">
+            <video id="modal-video-player" class="modal-video-player" controls>
+              <source id="videoSource" src="" type="video/mp4" />
+              Votre navigateur ne supporte pas la lecture de cette vidéo.
+            </video>
+          </div>
+
+          <!-- Description à droite -->
+          <div class="modal-video-description" id="videoDescription"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/script.js"></script>
+
+    <footer class="site-footer">
+      &copy; 2025 Guilhem REBÉJAC - Tous droits réservés.
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guilhem Rebéjac</title>
+  <link rel="icon" href="./assets/images/RBJC_logo_noir_plein.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/login.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+<body>
+  <div id="loader">
+    <img src="./assets/images/RBJC_logo_noir_plein.png" alt="Logo" class="loader-logo">
+  </div>
+
+  <!-- Hero avec logo centré + champ mot de passe -->
+  <section class="hero">
+    <div class="login-container">
+        <img id="site-logo-desktop" src="assets/images/RBJC_logo_blanc.png" alt="Logo d'Accueil" class="logo-desktop" />
+        <img id="site-logo-mobile" src="assets/images/RBJC_logo_blanc_plein.png" alt="Logo d'Accueil" class="logo-mobile" />
+      <div class="login-form">
+        <!-- Champ mot de passe -->
+        <input type="password" id="guilhemPwd" placeholder="Password">
+      </div>
+    </div>
+  </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      window.addEventListener("load", function() {
+          const loader = document.getElementById("loader");
+          loader.style.opacity = "0";
+          setTimeout(() => {
+              loader.style.display = "none";
+          }, 1000);
+      });
+
+      const logo = document.getElementById('site-logo-desktop');
+
+      function isDesktop() { return window.innerWidth > 768; }
+
+      if(isDesktop() && logo){
+        const fadeTo = (src) => {
+          logo.style.opacity = 0;
+          setTimeout(() => {
+            logo.src = src;
+            logo.style.opacity = 1;
+          }, 100);
+        };
+        logo.addEventListener('mouseenter', () => fadeTo('assets/images/RBJC_logo_blanc_plein.png'));
+        logo.addEventListener('mouseleave', () => fadeTo('assets/images/RBJC_logo_blanc.png'));
+      }
+    });
+
+    // ===== Clé et mots de passe chiffrés =====
+    const SECRET_KEY = "MaCléUltraSecrète123";
+
+    // Liste des mots de passe chiffrés
+    const passwords = {
+      "guilhem": CryptoJS.AES.encrypt("Guilhem", SECRET_KEY).toString(),
+      "histoire": CryptoJS.AES.encrypt("Histoire", SECRET_KEY).toString(),
+      "contacts":   CryptoJS.AES.encrypt("Contacts", SECRET_KEY).toString()
+    };
+
+    // Pages associées à chaque mot de passe
+    const redirectPages = {
+      "guilhem": "pages/guilhem.html",
+      "histoire": "pages/histoire.html",
+      "contacts":   "pages/contacts.html"
+    };
+
+    // ===== Vérification du mot de passe =====
+    function checkPassword() {
+      const input = document.getElementById("guilhemPwd").value;
+
+      for (const key in passwords) {
+        const decrypted = CryptoJS.AES.decrypt(passwords[key], SECRET_KEY)
+                                  .toString(CryptoJS.enc.Utf8);
+
+        if (input === decrypted) {
+          window.location.href = redirectPages[key];
+          return;
+        }
+      }
+
+      alert("Mot de passe incorrect.");
+    }
+
+    // ===== Détection du bouton Entrée =====
+    document.getElementById("guilhemPwd").addEventListener("keydown", function(e){
+      if (e.key === "Enter") checkPassword();
+    });
+  </script>
+</body>
+</html>

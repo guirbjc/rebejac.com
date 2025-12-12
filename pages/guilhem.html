@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guilhem Rebéjac</title>
+  <link rel="icon" href="../assets/images/RBJC_logo_noir_plein.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+  <body>
+    <div id="loader">
+      <img src="../assets/images/RBJC_logo_noir_plein.png" alt="Logo" class="loader-logo">
+    </div>
+
+    <header class="site-header">
+        <div class="header-content">
+            <div class="logo">
+                <a href="../login.html" class="logo">
+                    <!-- Logo desktop -->
+                    <img id="site-logo-desktop" src="../assets/images/RBJC_logo_blanc.png" alt="Logo Desktop" class="logo-desktop" />
+                    <!-- Logo mobile -->
+                    <img id="site-logo-mobile" src="../assets/images/RBJC_logo_blanc_plein.png" alt="Logo Mobile" class="logo-mobile" />
+                </a>
+            </div>
+
+            <!-- Bouton burger (affiché uniquement en mobile via CSS) -->
+            <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+            </button>
+
+            <!-- Menu -->
+            <nav id="menu" class="menu">
+                <ul>
+                    <li><a href="guilhem.html">Guilhem</a></li>
+                    <li><a href="collections.html">Collections</a></li>
+                    <li><a href="musique.html">Musique</a></li>
+                    <li><a href="design.html">Design</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+  <!-- image de fond -->
+  <section class="hero" style="background-image: url('../assets/images/Marseillan_Soir_2.png');">
+    <div class="hero-content">
+      <h1 class="hero-title-g">Guilhem</h1>
+      <p class="hero-subtitle-g">REBÉJAC</p>
+    </div>
+
+    <!-- Flèche de scroll -->
+    <div class="scroll-arrow-container">
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <div id="menu-placeholder" style="display:none;"></div>
+
+  <main class="page-section">
+    <div class="container">
+      <!-- Présentation Guilhem Rebéjac -->
+      <div class="presentation">
+        <div class="presentation-content">
+          <img src="../assets/images/CV_NB_2.png" alt="Portrait de Guilhem" class="presentation-image">
+          <div class="presentation-text">
+            <h2>
+              <span class="prenom">Guilhem</span>
+              <span class="nom">REBÉJAC</span>
+            </h2>
+            <p>
+              Ingénieur Artiste pluridisciplinaire passionné par la musique, le design et la création visuelle. Je partage ici ma vision et mes projets.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Grille des éléments -->
+      <div class="card-grid">
+        <a href="collections.html" class="card">
+          <img src="../assets/images/palmiers-2.1.JPG" alt="Collections">
+          <div class="card-title">Collections</div>
+        </a>
+        <a href="musique.html" class="card">
+          <img src="../assets/images/Palmiers.png" alt="Musique">
+          <div class="card-title">Musique</div>
+        </a>
+        <a href="design.html" class="card">
+          <img src="../assets/images/Marseille_Rue.jpg" alt="Design">
+          <div class="card-title">Design</div>
+        </a>
+        <a href="contacts.html" class="card">
+          <img src="../assets/images/garrigue-1.JPG" alt="Contacts">
+          <div class="card-title">Contacts</div>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <script src="../js/script.js"></script>
+
+    <footer class="site-footer">
+      &copy; 2025 Guilhem REBÉJAC - Tous droits réservés.
+    </footer>
+  </body>
+</html>

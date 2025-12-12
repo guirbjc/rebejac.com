@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guilhem - Musique</title>
+  <link rel="icon" href="../assets/images/RBJC_logo_noir_plein.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+  <body>
+    <div id="loader">
+      <img src="../assets/images/RBJC_logo_noir_plein.png" alt="Logo" class="loader-logo">
+    </div>
+
+    <header class="site-header">
+      <div class="header-content">
+        <div class="logo">
+          <a href="../login.html" class="logo">
+              <!-- Logo desktop -->
+              <img id="site-logo-desktop" src="../assets/images/RBJC_logo_blanc.png" alt="Logo Desktop" class="logo-desktop" />
+              <!-- Logo mobile -->
+              <img id="site-logo-mobile" src="../assets/images/RBJC_logo_blanc_plein.png" alt="Logo Mobile" class="logo-mobile" />
+          </a>
+        </div>
+
+        <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav id="menu" class="menu">
+          <ul>
+            <li><a href="guilhem.html">Guilhem</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="musique.html">Musique</a></li>
+            <li><a href="design.html">Design</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero" style="background-image: url('../assets/images/Palmiers.png');">
+      <div class="hero-content">
+        <h1 class="hero-title">Musique</h1>
+        <p class="hero-subtitle">GUIMII</p>
+      </div>
+      <!-- Flèche de scroll -->
+      <div class="scroll-arrow-container">
+        <div class="scroll-arrow"></div>
+      </div>
+    </section>
+
+    <div id="menu-placeholder" style="display:none;"></div>
+
+    <main class="page-section">
+      <div class="container">
+        <!-- Grille des éléments -->
+        <div class="card-grid">
+          <!-- <a href="#" class="card">
+            <img src="../assets/images/35.png" alt="En 106">
+  
+          </a> -->
+          <a href="#" class="card">
+            <img src="../assets/images/Vampire.png" alt="Vampire">
+            <!-- <div class="card-title">Vampire</div> -->
+          </a>
+          <a href="#" class="card">
+            <img src="../assets/images/Grain_de_beaute_2.png" alt="Grain de Beauté">
+            <!-- <div class="card-title">Grain de Beauté</div> -->
+          </a>
+          <a href="#" class="card">
+            <img src="../assets/images/Diner_aux_Chandelles_2.png" alt="Dîner aux Chandelles">
+            <!-- <div class="card-title">Dîner aux Chandelles</div> -->
+          </a>
+          <a href="#" class="card">
+            <img src="../assets/images/Pokemine_v2.png" alt="Pokémine">
+          </a>
+          <a href="#" class="card">
+            <img src="../assets/images/retiens_la_nuit_singlecover.jpg" alt="Retiens la Nuit">
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Fenêtre modale -->
+    <div id="modal" class="modal hidden">
+      <div class="modal-overlay"></div>
+        <div class="modal-content">
+          <button class="close-btn">&times;</button>
+          <!-- <img id="modal-image" src="" alt="Image agrandie" /> -->
+
+          <div class="modal-body">
+              <!-- COLONNE GAUCHE : image + bouton + audio -->
+              <div class="modal-left">
+                <div class="image-wrapper">
+                  <img id="modal-image" src="" alt="Image agrandie" />
+                  <button id="play-btn" class="play-btn" aria-label="Lire la piste">
+                    <svg id="play-icon" viewBox="0 0 24 24">
+                      <path d="M8 5v14l11-7z" />
+                    </svg>
+                    <svg id="pause-icon" viewBox="0 0 24 24" style="display: none;">
+                      <path d="M6 19h4V5H6zm8-14v14h4V5h-4z" />
+                    </svg>
+                  </button>
+                </div>
+
+                <!-- CONTROLES AUDIO -->
+                <div class="audio-controls">
+                  <!-- Progression -->
+                  <div class="progress-container">
+                    <span id="current-time">0:00</span>
+                    <input type="range" id="progress-bar" value="0" min="0" step="0.1">
+                    <span id="duration">0:00</span>
+                  </div>
+
+                  <!-- Volume -->
+                  <div class="volume-container">
+                    <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+                  </div>
+                </div>
+
+                <!-- VISUALISATEUR -->
+                <div id="visualizer">
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                </div>
+              </div>
+
+              <!-- COLONNE DROITE : description -->
+              <div class="modal-description">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <audio id="modal-audio" src=""></audio>
+      </div>
+    </div>
+
+    <script src="../js/script.js"></script>
+
+    <footer class="site-footer">
+      &copy; 2025 Guilhem REBÉJAC - Tous droits réservés.
+    </footer>
+  </body>
+</html>

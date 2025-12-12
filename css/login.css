@@ -1,0 +1,246 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.hero {
+  height: 100dvh;
+  width: 100%;
+  background-image: url('../assets/images/Marseillan_Soir_2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  margin: 0;
+  padding: 0;
+}
+
+.mobile-overlay-link {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fcfcfc;
+    display: flex;
+    transition: opacity 1s ease;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+.loader-logo {
+    width: 120px;
+    animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+    0%   { transform: scale(1); opacity: 1; }
+    50%  { transform: scale(1.1); opacity: 0.7; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.login-form input[type="password"] {
+    width: 260px;              /* largeur standard */
+    max-width: 90%;            /* s'adapte à l'écran si plus petit */
+    padding: 12px 16px;
+    margin-bottom: 20%;
+    border: 2px solid #fcfcfc; /* bordure blanche */
+    border-radius: 0;           /* pas d'arrondis */
+    background: transparent;    /* fond transparent */
+    font-size: 1em;
+    color: #fcfcfc;
+    text-align: center;         /* texte centré */
+    outline: none;
+    transition: all 0.3s ease; /* transition douce pour tous les effets */
+}
+
+/* Focus : style sobre */
+.login-form input[type="password"]:focus {
+    border-color: #ffffff;         /* bordure reste blanche mais plus nette */
+    background: rgba(0, 0, 0, 0.1); /* léger effet de surbrillance */
+    outline: none;                 /* supprime le contour bleu par défaut */
+    transition: all 0.3s ease;    /* transition douce pour le focus */
+}
+
+/* Placeholder blanc ou semi-blanc */
+.login-form input[type="password"]::placeholder {
+    color: rgba(252, 252, 252, 0.8); /* blanc avec un peu de transparence */
+    text-align: center;               /* texte centré */
+}
+
+
+
+
+
+@media (min-width: 769px) {
+  /* ==== LOGIN PAGE ==== */
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .login-form input[type="password"] {
+    width: 90%;          /* plus large pour mobile */
+    padding: 14px 16px;
+    font-size: 1.1em;
+  }
+
+  .login-button {
+    position: relative;
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-size: 4rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    background: none;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+  }
+
+  /* Barre blanche sous le bouton */
+  .login-button::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+  }
+
+  /* Affichage de la barre au hover */
+  .login-button:hover::after {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1001px) {
+  .logo-desktop {
+    width: 300px;
+    max-width: 80%;
+    margin-bottom: 25%;
+    transition: opacity 0.3s ease;
+  }
+  .logo-mobile {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .logo-mobile {
+    height: 13rem;
+    width: auto;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  .logo-desktop {
+    display: none !important;
+  }
+}
+
+/* === MOBILE ONLY (max 768px) === */
+@media (max-width: 768px) {
+  .login-form input[type="password"] {
+    width: 260px;
+    max-width: 90%;
+    padding: 12px 16px;
+    font-size: 1.5em;
+  }
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .login-button {
+    position: relative;
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    background: none;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+  }
+  /* Barre blanche sous le bouton */
+  .login-button::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+  }
+  /* Affichage de la barre au hover */
+  .login-button:hover::after {
+    width: 100%;
+  }
+
+  .mobile-overlay-link {
+    display: block;
+  }
+  .mobile-overlay-link:hover {
+    background-color: rgba(255, 255, 255, 0.05); /* léger effet au touch */
+  }
+  /* .mobile-overlay-link:active {
+  background-color: rgba(255, 255, 255, 0.1);
+  } */
+
+  .hero {
+    position: relative;   /* plus absolute */
+    width: 100%;
+    height: 100vh;        /* pleine hauteur de l'écran */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    z-index: 0;           /* garder normal pour que l'animation fonctionne */
+  }
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* centre horizontalement */
+    text-align: center;
+    width: 100%;
+    color: white;
+  }
+}
