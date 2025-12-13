@@ -162,7 +162,7 @@ const imageData = {
   },
   "Promo 60 Start": {
       src: "../assets/images/design/promo-60-start.png",
-      description: "<strong>Promo 60</strong>\n\nPhoto-montage créé pour la Semaine d'Accueil 2022-2023 de l'INSA Toulouse.\n\nL'image d'arrière-plan est une photo d'une rue de l'INSA Toulouse prise par mes soins."
+      description: "<strong>Promo 60 Start</strong>\n\nPhoto-montage créé pour la Semaine d'Accueil 2022-2023 de l'INSA Toulouse.\n\nL'image d'arrière-plan est une photo d'une rue de l'INSA Toulouse prise par mes soins."
   },
   "Lisbonne": {
       src: "../assets/images/design/dessin/lisbonne.jpg",
@@ -329,14 +329,6 @@ const textData = {
     content: `
       <p>Un instant je me suis enlisé dans mes pensées en lisant,<br>
       à mes dépens celles-ci ont pansées mes plaies pour me faire sentir réellement vivant.</p>
-      <p><em>Guilhem Rebéjac</em></p>
-    `
-  },
-  "Phallucephale": {
-    title: "Phallucéphale",
-    content: `
-      <p>Aujourd’hui partout, dans les villes, les rues et on fait comme si c’était normal.<br>
-      Il y a malheureusement trop de cons qui utilisent leurs phallus comme encéphale.</p>
       <p><em>Guilhem Rebéjac</em></p>
     `
   },
