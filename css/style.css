@@ -1254,7 +1254,7 @@ svg {
 
     color: #fcfcfc;
     text-decoration: none;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
 
@@ -1324,19 +1324,19 @@ svg {
   }
   .card-title {
     background: none;
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: 600;
   }
   .text-card {
     aspect-ratio: 1 / 0.4;
   }
   .text-card-title {
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: 600;
   }
 
   .modal-description {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .modal-image-body {
     display: flex;
@@ -1353,8 +1353,8 @@ svg {
   }
   .modal-image-close {
     position: absolute;
-    top: 20px;
-    right: 45%;
+    top: 5%;
+    right: 10%;
     font-size: 28px;
     color: #fcfcfc;
     background: none;
@@ -1363,12 +1363,12 @@ svg {
     z-index: 1002;
   }
   .modal-video-description {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .modal-video-close {
     position: absolute;
-    top: 20px;
-    right: 45%;
+    top: 5%;
+    right: 10%;
     font-size: 28px;
     color: #fcfcfc;
     background: none;
