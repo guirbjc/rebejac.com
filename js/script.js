@@ -184,6 +184,10 @@ const imageData = {
       src: "../assets/images/design/dessin/ange-dechu-1.jpg",
       description: "<strong>Ange Déchu</strong>\n\nReproduction de <em>l'Ange Déchu</em> d'Alexandre Cabanel.\n\nDessin à la craie à partir d'une photo sur un smartphone."
   },
+  "La main d'Adam": {
+      src: "../assets/images/design/michelange-1-1.png",
+      description: "<strong>La main d'Adam</strong>\n\nLogo représentant le détail des mains de <em>la Création d'Adam</em> de Michel-Ange."
+  },
   "Diana": {
       src: "../assets/images/design/dessin/diana.JPG",
       description: "<strong>The Princess</strong>\n\nPortrait de Lady Diana.\n\nDessin réalisé à partir d'une photo."
@@ -468,6 +472,28 @@ const textData = {
       Et cette guerre meurtrira jusqu'au confins des Pléiades<br>
       Car même au paradis, si roses en feu leurs pétales<br>
       Alors seules resteront en fin, les épines du mal</p>
+      <p><em>Guilhem Rebéjac</em></p>
+    `
+  },
+  "Admiration": {
+    title: "Admiration",
+    content: `
+      <p>Observe bouger les branches dans le vent,<br>
+      Et regarde au loin les lueurs du levant,<br>
+      Éclairant les cimes, les neiges éternelles,<br>
+      La beauté de l'aube rougissant le ciel.<br>
+      <br>
+      La nature s'éveille, les oiseaux chantant,<br>
+      Plus beau ne pourrait être que cet instant.<br>
+      Malgré tout, dépassant ce sublime écrin,<br>
+      Existe pour moi n'ayant d'égale en rien,<br>
+      <br>
+      Une vision mille fois supérieure,<br>
+      En beauté, en ravissement et bonheur.<br>
+      Mais bien malgré toi, tu ne pourrais la voir,<br>
+      Car elle brille et vit à travers mon regard,<br>
+      <br>
+      Je t'admire.</p>
       <p><em>Guilhem Rebéjac</em></p>
     `
   },
