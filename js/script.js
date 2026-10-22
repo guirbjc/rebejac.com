@@ -114,7 +114,7 @@ const imageData = {
   },
   "Signature Rebéjac": {
       src: "../assets/images/design/sign-rebejac-b.png",
-      description: "<strong>Signature Rebéjac</strong>\n\nProposition de design de la signature Rebéjac.\n\n<strong>Année : </strong> 2026"
+      description: "<strong>Signature Rebéjac</strong>\n\nProposition de design pour la signature Rebéjac.\n\n<strong>Année : </strong> 2026"
   },
   "Heirloom Line Up": {
       src: "../assets/images/design/heirloom-lineup.png",
