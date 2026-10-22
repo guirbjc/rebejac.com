@@ -118,11 +118,11 @@ const imageData = {
   },
   "Heirloom Line Up": {
       src: "../assets/images/design/heirloom-lineup.png",
-      description: "<strong>Heirloom Line Up</strong>\n\nDirection Artistique pour l'Affiche Line Up d'un festival de musique étudiant.\n\n<strong>Année : </strong> Août 2026"
+      description: "<strong>Heirloom Line Up</strong>\n\nDirection Artistique pour l'Affiche Line Up d'un festival de musique étudiant.\n\n<strong>Année : </strong> Septembre 2026"
   },
   "Heirloom Merch": {
       src: "../assets/images/design/heirloom-merch.png",
-      description: "<strong>Heirloom Merch</strong>\n\nDirection Artistique pour le merchandising d'un festival de musique étudiant.\n\n<strong>Année : </strong> Août 2026"
+      description: "<strong>Heirloom Merch</strong>\n\nDirection Artistique pour le merchandising d'un festival de musique étudiant.\n\n<strong>Année : </strong> Septembre 2026"
   },
   "Soleil Azur Aiga": {
       src: "../assets/images/design/soleil-azuraiga.png",
@@ -136,7 +136,7 @@ const imageData = {
       src: "../assets/images/design/poster-toulouse-b.png",
       description: "<strong>Poster Toulouse</strong>\n\nAffiche de présentation de la ville de Toulouse. Projet personnel — proposition non officielle\n\n<strong>Année : </strong>2026"
   },
-  "La Lune Ecarlate": {
+  "La Lune ecarlate": {
       src: "../assets/images/design/la-lune-ecarlate.png",
       description: "<strong>La Lune Écarlate</strong>\n\nAffiche de présentation d’un de mes courts-métrages à un événement étudiant.\n\n<strong>Année : </strong>2026"
   },
