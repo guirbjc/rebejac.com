@@ -106,163 +106,163 @@ const descriptionSongMap = {
 const imageData = {
   "Triskel": {
       src: "../assets/images/design/crea-triskel.png",
-      description: "<strong>Triskel</strong>\n\nTravail de design exploratoire.\n\n<strong>Année</strong> 2026"
+      description: "<strong>Triskel</strong>\n\nTravail de design exploratoire.\n\n<strong>Année : </strong> 2026"
   },
   "Le Palmier": {
       src: "../assets/images/design/le-palmier.png",
-      description: "<strong>Le Palmier</strong>\n\nTravail de design exploratoire.\n\n<strong>Année</strong> 2026"
+      description: "<strong>Le Palmier</strong>\n\nTravail de design exploratoire.\n\n<strong>Année : </strong> 2026"
   },
   "Signature Rebéjac": {
       src: "../assets/images/design/sign-rebejac-b.png",
-      description: "<strong>Signature Rebéjac</strong>\n\nProposition de design de la signature Rebéjac.\n\n<strong>Année</strong> 2026"
+      description: "<strong>Signature Rebéjac</strong>\n\nProposition de design de la signature Rebéjac.\n\n<strong>Année : </strong> 2026"
   },
   "Heirloom Line Up": {
       src: "../assets/images/design/heirloom-lineup.png",
-      description: "<strong>Heirloom Line Up</strong>\n\nDirection Artistique pour l'Affiche Line Up d'un festival de musique étudiant.\n\n<strong>Année</strong> Août 2026"
+      description: "<strong>Heirloom Line Up</strong>\n\nDirection Artistique pour l'Affiche Line Up d'un festival de musique étudiant.\n\n<strong>Année : </strong> Août 2026"
   },
   "Heirloom Merch": {
       src: "../assets/images/design/heirloom-merch.png",
-      description: "<strong>Heirloom Merch</strong>\n\nDirection Artistique pour le merchandising d'un festival de musique étudiant.\n\n<strong>Année</strong> Août 2026"
+      description: "<strong>Heirloom Merch</strong>\n\nDirection Artistique pour le merchandising d'un festival de musique étudiant.\n\n<strong>Année : </strong> Août 2026"
   },
   "Soleil Azur Aiga": {
       src: "../assets/images/design/soleil-azuraiga.png",
-      description: "<strong>Soleil Azur Aiga</strong>\n\nGraphisme exploratoire.\n\n<strong>Année</strong>Octobre2026"
-  },
-  "Poster Toulouse": {
-      src: "../assets/images/design/poster-toulouse.png",
-      description: "<strong>Poster Toulouse</strong>\n\nAffiche de présentation de la ville de Toulouse. Projet personnel — proposition non officielle\n\n<strong>Année</strong>2026"
+      description: "<strong>Soleil Azur Aiga</strong>\n\nGraphisme exploratoire.\n\n<strong>Année : </strong>Octobre 2026"
   },
   "Poster Marseillan": {
       src: "../assets/images/design/poster-marseillan.png",
-      description: "<strong>Poster Marseillan</strong>\n\nAffiche de présentation de la ville de Marseillan. Projet personnel — proposition non officielle\n\n<strong>Année</strong>2026"
+      description: "<strong>Poster Marseillan</strong>\n\nAffiche de présentation de la ville de Marseillan. Projet personnel — proposition non officielle\n\n<strong>Année : </strong>2026"
+  },
+  "Poster Toulouse": {
+      src: "../assets/images/design/poster-toulouse-b.png",
+      description: "<strong>Poster Toulouse</strong>\n\nAffiche de présentation de la ville de Toulouse. Projet personnel — proposition non officielle\n\n<strong>Année : </strong>2026"
   },
   "La Lune Ecarlate": {
       src: "../assets/images/design/la-lune-ecarlate.png",
-      description: "<strong>La Lune Écarlate</strong>\n\nAffiche de présentation d’un de mes courts-métrages à un événement étudiant.\n\n<strong>Année</strong>2026"
+      description: "<strong>La Lune Écarlate</strong>\n\nAffiche de présentation d’un de mes courts-métrages à un événement étudiant.\n\n<strong>Année : </strong>2026"
   },
   "TCV": {
       src: "../assets/images/design/tcv-n.png",
-      description: "<strong>Tennis Club Vailhauquès</strong>\n\nProposition de logo pour le Tennis Club de Vailhauquès, dans l'Hérault.\n\n<strong>Année</strong>2025"
+      description: "<strong>Tennis Club Vailhauquès</strong>\n\nProposition de logo pour le Tennis Club de Vailhauquès, dans l'Hérault.\n\n<strong>Année : </strong>2025"
   },
   "MC2": {
       src: "../assets/images/design/mc2.png",
-      description: "<strong>DJ MC2</strong>\n\nLogo créé pour DJ MC2.\nCe logo représente un disque vinyle stylisé.\n\nLogo utilisé sur les réseaux sociaux de l'artiste.\n\n<strong>Année</strong>2024"
+      description: "<strong>DJ MC2</strong>\n\nLogo créé pour DJ MC2.\nCe logo représente un disque vinyle stylisé.\n\nLogo utilisé sur les réseaux sociaux de l'artiste.\n\n<strong>Année : </strong>2024"
   },
   "Gala ESIEE 2025": {
       src: "../assets/images/design/gala-esiee.png",
-      description: "<strong>Gala ESIEE 2025</strong>\n\nLogo créé pour le Gala de l'ESIEE Paris 2025 - Thème fantaisie/féérique.\n\nLogo utilisé pour la communication de l'événement sur les réseaux sociaux.\n\n<strong>Année</strong>2024"
+      description: "<strong>Gala ESIEE 2025</strong>\n\nLogo créé pour le Gala de l'ESIEE Paris 2025 - Thème fantaisie/féérique.\n\nLogo utilisé pour la communication de l'événement sur les réseaux sociaux.\n\n<strong>Année : </strong>2024"
   },
   "Atlas": {
       src: "../assets/images/design/atlas.png",
-      description: "<strong>Cover Atlas</strong>\n\nCover créée pour une chanson parodique.\n\n<strong>Année</strong>2024"
+      description: "<strong>Cover Atlas</strong>\n\nCover créée pour une chanson parodique.\n\n<strong>Année : </strong>2024"
   },
   "Template BDA": {
       src: "../assets/images/design/template-bda.png",
-      description: "<strong>Template BDA</strong>\n\nTemplate réalisé pour habiller le feed instagram du Bureau Des Arts de l'ESIEE Paris.\n\n<strong>Année</strong>2024"
+      description: "<strong>Template BDA</strong>\n\nTemplate réalisé pour habiller le feed instagram du Bureau Des Arts de l'ESIEE Paris.\n\n<strong>Année : </strong>2024"
   },
   "Logo BDA": {
       src: "../assets/images/design/logo-bda.png",
-      description: "<strong>Logo BDA</strong>\n\nProposition de logo pour le Bureau Des Arts de l'ESIEE Paris.\n\nLe crayon est formé des lettres BDA, le A stylise la Tour Eiffel.\n\n<strong>Année</strong>2024"
+      description: "<strong>Logo BDA</strong>\n\nProposition de logo pour le Bureau Des Arts de l'ESIEE Paris.\n\nLe crayon est formé des lettres BDA, le A stylise la Tour Eiffel.\n\n<strong>Année : </strong>2024"
   },
   "Tete 2 Pirates": {
       src: "../assets/images/design/tete-2-pirates-d.jpg",
-      description: "<strong>Tête 2 Pirates</strong>\n\nProposition de logo pour le Comité d'Intégration de l'ESIEE Paris.\n\n<strong>Année</strong>2024"
+      description: "<strong>Tête 2 Pirates</strong>\n\nProposition de logo pour le Comité d'Intégration de l'ESIEE Paris.\n\n<strong>Année : </strong>2024"
   },
   "Logo CI": {
       src: "../assets/images/design/logo-ci.png",
-      description: "<strong>Comité d'Intégration</strong>\n\nLogo créé pour le Comité d'Intégration de l'ESIEE Paris.\n\nCe logo a orné les t-shirts et goodies du Comité d'Intégration 2024-2025.\n\n<strong>Année</strong>2024"
+      description: "<strong>Comité d'Intégration</strong>\n\nLogo créé pour le Comité d'Intégration de l'ESIEE Paris.\n\nCe logo a orné les t-shirts et goodies du Comité d'Intégration 2024-2025.\n\n<strong>Année : </strong>2024"
   },
   "ESIEE-1": {
       src: "../assets/images/design/esiee-3.png",
-      description: "<strong>Merch ESIEE</strong>\n\nLogos créés pour le merchandising 2024-2025 de l'ESIEE Paris.\n\n<strong>Année</strong>2024"
+      description: "<strong>Merch ESIEE</strong>\n\nLogos créés pour le merchandising 2024-2025 de l'ESIEE Paris.\n\n<strong>Année : </strong>2024"
   },
   "ESIEE Sport": {
       src: "../assets/images/design/esiee-sport.png",
-      description: "<strong>ESIEE Sport</strong>\n\nProposition de logo pour l'association sportive de l'ESIEE Paris.\n\nOn peut remarquer la forme du bâtiment de l'ESIEE vue du ciel sur le haut du logo.\n\n<strong>Année</strong>2024"
+      description: "<strong>ESIEE Sport</strong>\n\nProposition de logo pour l'association sportive de l'ESIEE Paris.\n\nOn peut remarquer la forme du bâtiment de l'ESIEE vue du ciel sur le haut du logo.\n\n<strong>Année : </strong>2024"
   },
   "Patinoire": {
       src: "../assets/images/design/patinoire.png",
-      description: "<strong>Club Patinoire</strong>\n\nLogo retravaillé pour le club patinoire de l'ESIEE Paris.\n\n<strong>Année</strong>2024"
+      description: "<strong>Club Patinoire</strong>\n\nLogo retravaillé pour le club patinoire de l'ESIEE Paris.\n\n<strong>Année : </strong>2024"
   },
   "Blason FAS": {
       src: "../assets/images/design/blason-fas.png",
-      description: "<strong>Blason FAS</strong>\n\nProposition de logo pour le merchandising de la filière FAS de l'INSA Toulouse.\n\n<strong>Année</strong>2022"
+      description: "<strong>Blason FAS</strong>\n\nProposition de logo pour le merchandising de la filière FAS de l'INSA Toulouse.\n\n<strong>Année : </strong>2022"
   },
   "FAS": {
       src: "../assets/images/design/fas-2.png",
-      description: "<strong>Logo FAS</strong>\n\nLogo créé pour représentée la Filière Active en Sciences (FAS) durant la Semaine d'Accueil 2022-2023 de l'INSA Toulouse.\n\n<strong>Année</strong>2022"
+      description: "<strong>Logo FAS</strong>\n\nLogo créé pour représentée la Filière Active en Sciences (FAS) durant la Semaine d'Accueil 2022-2023 de l'INSA Toulouse.\n\n<strong>Année : </strong>2022"
   },
   "Blason Rebéjac": {
       src: "../assets/images/design/blason-rebejac.png",
-      description: "<strong>Blason Rebéjac</strong>\n\nBlason inventé des Rebéjac.\n\n<strong>Année</strong>2022"
+      description: "<strong>Blason Rebéjac</strong>\n\nBlason inventé des Rebéjac.\n\n<strong>Année : </strong>2022"
   },
   "Paparazzi": {
       src: "../assets/images/design/paparazzi.png",
-      description: "<strong>Paparazzi</strong>\n\nProposition de cover d'album.\n\n<strong>Année</strong>2024"
+      description: "<strong>Paparazzi</strong>\n\nProposition de cover d'album.\n\n<strong>Année : </strong>2024"
   },
   "IMAC": {
       src: "../assets/images/design/imac-1.png",
-      description: "<strong>IMAC</strong>\n\nLogo créé pour le merchandising de la formation IMAC.\n\nOn peut deviner une Tour Eiffel à l'envers et les chevrons représente la programmation et le code, coeur de la formation.\n\nCe logo orne la veste de la promotion 2024-2025.\n\n<strong>Année</strong>2024"
+      description: "<strong>IMAC</strong>\n\nLogo créé pour le merchandising de la formation IMAC.\n\nOn peut deviner une Tour Eiffel à l'envers et les chevrons représente la programmation et le code, coeur de la formation.\n\nCe logo orne la veste de la promotion 2024-2025.\n\n<strong>Année : </strong>2024"
   },
   "Petit Kawa 1": {
       src: "../assets/images/design/petit-kawa-1.png",
-      description: "<strong>Petit Kawa</strong>\n\nProposition de logo pour le bar de l'INSA Toulouse.\n\n<strong>Année</strong>2022"
+      description: "<strong>Petit Kawa</strong>\n\nProposition de logo pour le bar de l'INSA Toulouse.\n\n<strong>Année : </strong>2022"
   },
   "Petit Kawa 2": {
       src: "../assets/images/design/petit-kawa-3.png",
-      description: "<strong>Petit Kawa</strong>\n\nProposition de logo pour le bar de l'INSA Toulouse.\n\n<strong>Année</strong>2022"
+      description: "<strong>Petit Kawa</strong>\n\nProposition de logo pour le bar de l'INSA Toulouse.\n\n<strong>Année : </strong>2022"
   },
   "INSA A": {
       src: "../assets/images/design/insa-A-2.png",
-      description: "<strong>INSA Groupe A</strong>\n\nLogo créé pour la Semaine d'Accueil 2022-2023 de l'INSA Toulouse.\n\nOn peut lire INSA dans les poils du renard.\n\n<strong>Année</strong>2022"
+      description: "<strong>INSA Groupe A</strong>\n\nLogo créé pour la Semaine d'Accueil 2022-2023 de l'INSA Toulouse.\n\nOn peut lire INSA dans les poils du renard.\n\n<strong>Année : </strong>2022"
   },
   "Alibabar": {
       src: "../assets/images/design/alibabar.png",
-      description: "<strong>Alibabar</strong>\n\nLogo créé pour le bar de l'INSA Toulouse\n\nUtilisé sur les réseaux sociaux du bar durant l'année 2022-2023.\n\n<strong>Année</strong>2022"
+      description: "<strong>Alibabar</strong>\n\nLogo créé pour le bar de l'INSA Toulouse\n\nUtilisé sur les réseaux sociaux du bar durant l'année 2022-2023.\n\n<strong>Année : </strong>2022"
   },
   "100 Tours": {
       src: "../assets/images/design/100-tours.png",
-      description: "<strong>100 Tours</strong>\n\nProposition de logo pour les 100 Tours de l'INSA Toulouse, un événement sportif organisé chaque année. Renommé depuis 'Les 24h de l'INSA Toulouse'.\n\n<strong>Année</strong>2022"
+      description: "<strong>100 Tours</strong>\n\nProposition de logo pour les 100 Tours de l'INSA Toulouse, un événement sportif organisé chaque année. Renommé depuis 'Les 24h de l'INSA Toulouse'.\n\n<strong>Année : </strong>2022"
   },
   "La Raclette": {
       src: "../assets/images/design/la-raclette.png",
-      description: "<strong>La Raclette</strong>\n\nLogo créé pour la boomteam (équipe en charge des soirées) de l'INSA Toulouse.\n\nLogo utilisé sur les réseaux sociaux et pour la communication des évènements festifs durant l'année 2022-2023.\n\n<strong>Année</strong>2022"
+      description: "<strong>La Raclette</strong>\n\nLogo créé pour la boomteam (équipe en charge des soirées) de l'INSA Toulouse.\n\nLogo utilisé sur les réseaux sociaux et pour la communication des évènements festifs durant l'année 2022-2023.\n\n<strong>Année : </strong>2022"
   },
   "Promo 60": {
       src: "../assets/images/design/promo-60-1.png",
-      description: "<strong>Promo 60</strong>\n\nLogo créé pour la Semaine d'Accueil 2022-2023 de l'INSA Toulouse.\n\n<strong>Année</strong>2022"
+      description: "<strong>Promo 60</strong>\n\nLogo créé pour la Semaine d'Accueil 2022-2023 de l'INSA Toulouse.\n\n<strong>Année : </strong>2022"
   },
   "Promo 60 Start": {
       src: "../assets/images/design/promo-60-start.png",
-      description: "<strong>Promo 60 Start</strong>\n\nPhoto-montage créé pour la Semaine d'Accueil 2022-2023 de l'INSA Toulouse.\n\nL'image d'arrière-plan est une photo d'une rue de l'INSA Toulouse prise par mes soins.\n\n<strong>Année</strong>2022"
+      description: "<strong>Promo 60 Start</strong>\n\nPhoto-montage créé pour la Semaine d'Accueil 2022-2023 de l'INSA Toulouse.\n\nL'image d'arrière-plan est une photo d'une rue de l'INSA Toulouse prise par mes soins.\n\n<strong>Année : </strong>2022"
   },
   "Lisbonne": {
       src: "../assets/images/design/dessin/lisbonne.jpg",
-      description: "<strong>Lisbonne</strong>\n\nVue d'une rue de Lisbonne où passe la fameuse ligne de funiculaire 28 vers Baixa.\n\nPeinture à partir d'une carte postale.\n\n<strong>Année</strong>2020"
+      description: "<strong>Lisbonne</strong>\n\nVue d'une rue de Lisbonne où passe la fameuse ligne de funiculaire 28 vers Baixa.\n\nPeinture à partir d'une carte postale.\n\n<strong>Année : </strong>2020"
   },
   "La Creation d'Adam": {
       src: "../assets/images/design/dessin/michelange.jpg",
-      description: "<strong>La Création d'Adam</strong>\n\nReproduction d'une des oeuvres les plus célèbres de Michel-Ange, <em>la Création d'Adam</em>.\n\nDessin à la craie à partir d'une photo sur un smartphone.\n\n<strong>Année</strong>2023"
+      description: "<strong>La Création d'Adam</strong>\n\nReproduction d'une des oeuvres les plus célèbres de Michel-Ange, <em>la Création d'Adam</em>.\n\nDessin à la craie à partir d'une photo sur un smartphone.\n\n<strong>Année : </strong>2023"
   },
   "Pirate Corsaire": {
       src: "../assets/images/design/dessin/pirate-corsaire.jpg",
-      description: "<strong>Pirate VS Corsaire</strong>\n\nProposition initiale pour le logo du Comité d'Intégration 2024-2025 de l'ESIEE Paris.\n\n<strong>Année</strong>2024"
+      description: "<strong>Pirate VS Corsaire</strong>\n\nProposition initiale pour le logo du Comité d'Intégration 2024-2025 de l'ESIEE Paris.\n\n<strong>Année : </strong>2024"
   },
   "American Nightboom": {
       src: "../assets/images/design/dessin/american-nightboom.jpg",
-      description: "<strong>American Nightboom</strong>\n\nTenture réalisée pour une soirée à l'INSA Toulouse.\n\nDessin réalisé sans modèle, à main levée.\n\n<strong>Année</strong>2023"
+      description: "<strong>American Nightboom</strong>\n\nTenture réalisée pour une soirée à l'INSA Toulouse.\n\nDessin réalisé sans modèle, à main levée.\n\n<strong>Année : </strong>2023"
   },
   "Ange Dechu": {
       src: "../assets/images/design/dessin/ange-dechu-1.jpg",
-      description: "<strong>Ange Déchu</strong>\n\nReproduction de <em>l'Ange Déchu</em> d'Alexandre Cabanel.\n\nDessin à la craie à partir d'une photo sur un smartphone.\n\n<strong>Année</strong>2023"
+      description: "<strong>Ange Déchu</strong>\n\nReproduction de <em>l'Ange Déchu</em> d'Alexandre Cabanel.\n\nDessin à la craie à partir d'une photo sur un smartphone.\n\n<strong>Année : </strong>2023"
   },
   "La main d'Adam": {
       src: "../assets/images/design/michelange-1-1.png",
-      description: "<strong>La main d'Adam</strong>\n\nLogo représentant le détail des mains de <em>la Création d'Adam</em> de Michel-Ange.\n\n<strong>Année</strong>2023"
+      description: "<strong>La main d'Adam</strong>\n\nLogo représentant le détail des mains de <em>la Création d'Adam</em> de Michel-Ange.\n\n<strong>Année : </strong>2023"
   },
   "Diana": {
       src: "../assets/images/design/dessin/diana.JPG",
-      description: "<strong>The Princess</strong>\n\nPortrait de Lady Diana.\n\nDessin réalisé à partir d'une photo.\n\n<strong>Année</strong>2025"
+      description: "<strong>The Princess</strong>\n\nPortrait de Lady Diana.\n\nDessin réalisé à partir d'une photo.\n\n<strong>Année : </strong>2025"
   }
 
 };
