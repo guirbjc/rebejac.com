@@ -1,4 +1,8 @@
 const audioMap = {
+"FievreMinuit.png": "../assets/audios/FievreMinuit.wav",
+"AzurCarmin.png": "../assets/audios/AzurCarmin.wav",
+"DiscoBlues.png": "../assets/audios/DiscoBlues.wav",
+"SableduSoir.png": "../assets/audios/SableduSoir.wav",
 "35.png": "../assets/audios/en106-guigui_masterv1.wav",
 "Vampire.png": "../assets/audios/Vampire.wav",
 "Grain_de_beaute_2.png": "../assets/audios/Grain.wav",
@@ -8,6 +12,38 @@ const audioMap = {
 };
 
 const descriptionSongMap = {
+  "FievreMinuit.png": `
+      <p><strong>Titre :</strong> Fièvre Minuit</p>
+      <p><strong>Genre :</strong> Esquisse Instrumentale</p>
+      <p><strong>Année :</strong> 2026</p>
+      <br>
+      <p><strong>Compositeur :</strong> Guilhem Rebéjac</p>
+      <p><strong>Mixage :</strong> Guilhem Rebéjac</p>
+  `,
+  "AzurCarmin.png": `
+      <p><strong>Titre :</strong> Azur Carmin</p>
+      <p><strong>Genre :</strong> Esquisse Instrumentale</p>
+      <p><strong>Année :</strong> 2026</p>
+      <br>
+      <p><strong>Compositeur :</strong> Guilhem Rebéjac</p>
+      <p><strong>Mixage :</strong> Guilhem Rebéjac</p>
+  `,
+  "DiscoBlues.png": `
+      <p><strong>Titre :</strong> Disco Blues</p>
+      <p><strong>Genre :</strong> Esquisse Instrumentale</p>
+      <p><strong>Année :</strong> 2026</p>
+      <br>
+      <p><strong>Compositeur :</strong> Guilhem Rebéjac</p>
+      <p><strong>Mixage :</strong> Guilhem Rebéjac</p>
+  `,
+  "SableduSoir.png": `
+      <p><strong>Titre :</strong> Sable du Soir</p>
+      <p><strong>Genre :</strong> Esquisse Instrumentale</p>
+      <p><strong>Année :</strong> 2026</p>
+      <br>
+      <p><strong>Compositeur :</strong> Guilhem Rebéjac</p>
+      <p><strong>Mixage :</strong> Guilhem Rebéjac</p>
+  `,
   "35.png": `
       <p><strong>Titre :</strong> En 106</p>
       <p><strong>Genre :</strong> Hip-Hop/Rap</p>
