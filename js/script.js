@@ -233,23 +233,23 @@ const imageData = {
 
 const videoData = {
   "La Lune Ecarlate": {
-      src: "https://youtu.be/embed/PvxVMiMFRV8",
+      src: "https://www.youtube.com/embed/PvxVMiMFRV8",
       description: "<strong>La Lune Écarlate</strong>\n\nTitle Sequence d'une série imaginaire\nsur des loups-garous à Toulouse à la fin du XIXe.\n\nCréation originale de Guilhem Rebéjac,\nsur une musique de Raymond Lefèvre."
   },
   "106 3D": {
-      src: "https://youtu.be/embed/GWWM9_aqAGk",
+      src: "https://www.youtube.com/embed/GWWM9_aqAGk",
       description: "<strong>106 dans un tunnel</strong>\n\nMon tout premier projet réalisé sur le logiciel Blender.\nUne 106 roule dans un tunnel."
   },
   "La Flamme": {
-      src: "https://youtu.be/embed/shorts/skbKXSqYDMY?feature=share",
+      src: "https://www.youtube.com/embed/watch?v=5S5M0am1AKc&list=PLYKjKcdMCtTAEhF28pLCjObrFMepPj44-&index=6",
       description: "<strong>Supercut - La Flamme</strong>\n\nSynopsis : Deux amis sont à une soirée, l'un conseille à l'autre une technique vue dans un film pour donner son contact à la fille qui lui plait : écrire son numéro de téléphone sur un briquet puis lui donner, mais le fameux briquet disparait.\n\nCourt-métrage réalisé en 2024."
   },
   "Le 6 joueur": {
-      src: "https://youtu.be/embed/shorts/JJnsYekHvN8?feature=share",
-      description: "<strong>Supercut - Le 6e joueur</strong>\n\nSynopsis : Un groupe d'amis joue à un jeu de société dans lequel il faut répondre à des questions, mais celles-ci deviennent étrangement de plus en plus personnelles et ciblées à mesure que la partie se déroule.\n\nCourt-métrage réalisé en 2023."
+      src: "https://www.youtube.com/embed/watch?v=71ZXiPVA3Mg&list=PLYKjKcdMCtTChtiV7ILIVNtLvaLXej9Vl&index=4",
+      description: "<strong>Supercut - Le Sixième joueur</strong>\n\nSynopsis : Un groupe d'amis joue à un jeu de société dans lequel il faut répondre à des questions, mais celles-ci deviennent étrangement de plus en plus personnelles et ciblées à mesure que la partie se déroule.\n\nCourt-métrage réalisé en 2023."
   },
   "Vampire Cartoon": {
-      src: "https://youtu.be/embed/wnP-YkYw75Q",
+      src: "https://www.youtube.com/embed/wnP-YkYw75Q",
       description: "<strong>Trailer Vampire</strong>\n\nTrailer de mon deuxième single <em>Vampire</em>.\n\nRéalisé sur le logiciel After Effects."
   }
 };
