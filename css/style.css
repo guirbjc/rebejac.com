@@ -9,6 +9,25 @@ html, body {
   overflow-x: hidden;
 }
 
+/* BARRE DE DÉFILEMENT NOIRE */
+html, body {
+  scrollbar-width: thin;                 /* Firefox et navigateurs récents */
+  scrollbar-color: #000 transparent;     /* pouce noir, piste transparente */
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 8px;
+}
+html::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+html::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  background: #000;
+  border-radius: 0;
+}
+
 #loader {
     position: fixed;
     top: 0;
